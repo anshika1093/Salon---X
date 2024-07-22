@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 1028px;
+    height: 695px;
+    background: url('D:\Study\front end\react\react1\SalonX\reactprojectapp\src\Components\Assets\Rectangle 34624655.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 508px;
+}
+
+.wrapper .salon {
+    padding-left: 1px;
+}
+
+.salon a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    margin-left: 1px;
+       
+}
+
+.salon a:hover {
+    text-decoration: none;
+}
+
+.wrapper .form-box-signin {
+    width: 471px;
+    height: 550px;
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 520px;
+    margin-top: 2px;
+    
+}
+
+.wrapper .line {
+    width: 1025px;
+    height: 1px;
+    color: black;
+    padding-left: 10px;
+    margin-left: 489px;
+
+}
+
+.form-box-signin img {
+    align-self: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+form h2 {
+    width: 376px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 350px;
+}
+
+form p {
+    width: 600px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 230px;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+form .input-box {
+    position: relative;
+    width: 471px;
+    height: 50px;
+    border-radius: 13px;
+    gap: 25px;
+    
+}
+
+.input-box input{
+    width: 350px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    margin-left: 365px;
+    font-size: 12.5px;
+    padding: 20px 45px 20px 20px;
+    
+}
+
+.input-box input::placeholder {
+    color: black;
+    font-size: 14px;
+}
+
+.input-box .icon {
+    position: absolute;
+    left: 685px;
+    top: 46%;
+    translate: 0 -50%;
+    font-size: 16px;
+}
+
+form .remember-forget {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13.5px;
+    margin-left: 365px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.remember-forget label input {
+    accent-color: blue;
+    margin-right: 6px;
+}
+
+.remember-forget a {
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forget a:hover {
+    text-decoration: underline;
+}
+
+form button {
+    width: 73%;
+    height: 45px;
+    background: #ce7c38;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0,0,0,.1);
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-left: 370px;
+}
+
+form .sign-up-link {
+    font-size: 12.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.sign-up-link p a {
+    color: #ce7c38;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sign-up-link p a:hover{
+    text-decoration: underline;
+}
+
+.line p {
+    font-size: 12.5px;
+    text-align: left;
+    margin: 20px 0 15px;
+}
+
+.line p a {
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+    padding-left: 120px;
+    gap: 25px;
+}
+
+.line p a:hover{
+    text-decoration: underline;
+}
