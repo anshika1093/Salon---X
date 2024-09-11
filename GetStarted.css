@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.choice {
+    width: 1028px;
+    height: 695px;
+    background: url('D:\internship\project\salonx\src\components\Assets\gs1.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 42% 100%;
+    margin-right: 508px;
+}
+
+.choice .salon {
+    padding-left: 1px;
+}
+
+.salon a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    margin-left: 1px;
+       
+}
+
+.salon a:hover {
+    text-decoration: none;
+}
+
+.choice .option{
+    background-color: white;
+    width: 800px;
+    height: 560px;
+    margin-left: 615px;
+    margin-top: 1px;
+}
+
+.option h2 {
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.option button{
+    width: 690px;
+    height: 135px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-top: 3px;
+    font-size: 20px;
+    text-align: left;
+    padding: 40px;
+    background-color: white;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+button p{
+    font-size: 14px;
+}
+
+.option button:hover {
+    background-color: rgb(252, 236, 209);
+    border-width: 2px;
+    border-color: rgb(255, 169, 65);
+    transition-delay: 40ms;
+}
+
+button img {
+    width: 150px;
+    height: 100px;
+    margin-left: 450px;
+    padding-top: 1px;
+}
+
+.option .sign-in-link {
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.sign-in-link p a {
+    color: #ce7c38;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sign-in-link p a:hover{
+    text-decoration: underline;
+}
+
+.choice .line {
+    width: 1060px;
+    height: 1px;
+    color: black;
+    padding-left: 10px;
+    margin-left: 440px;
+
+}
+
+.line p {
+    font-size: 12.5px;
+    text-align: left;
+    margin: 20px 0 15px;
+}
+
+.line p a {
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+    padding-left: 120px;
+
+}
+
+.line p a:hover{
+    text-decoration: underline;
+}

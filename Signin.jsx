@@ -3,14 +3,29 @@ import './Signin.css'
 /*import { TbEyeX } from "react-icons/tb";*/
 import logo from '../logo.png';
 import salonx from '../Salon-x.png'; 
+import bg from '../Rectangle 34624655.png';
+import { useNavigate } from 'react-router-dom';
+import { IoArrowBackSharp } from "react-icons/io5";
 
+function Signin() {
+    const navigate = useNavigate();
+  
+    const handleSignIn = () => {
+      navigate('/getstarted');
+    };    
 
-const Signin = () => {
+    const handleForgotPassword = () => {
+        navigate('/forgotpassword');
+    };
+    
   return (
     <div className='wrapper'>
         <div className='salon'>
             <a href='#'><img src={salonx}></img> Salon-X</a>
+            <a href='#' className='previous'><IoArrowBackSharp /></a>
+            
         </div>
+        
         <div className='form-box-signin'>
             <form action=''>
                 <img src={logo} alt=''></img>
@@ -26,14 +41,14 @@ const Signin = () => {
                 </div>
                 <div className="remember-forget">
                     <label><input type='checkbox' />Remember me</label> 
-                    <a href='#' Link to="/forgot-password">Forgot password?</a>               
+                    <a href='#' onClick={handleForgotPassword}>Forgot password?</a>               
                 </div> 
 
-                <button type='submit'>SIGN IN</button>
+                <button >SIGN IN</button>
                 
 
                 <div className='sign-up-link'>
-                    <p>Don't have an account? <a href='#'>Sign up</a></p>
+                    <p>Don't have an account? <a href='#'type='submit' onClick={handleSignIn}>Sign up</a></p>
                 </div>        
             </form>
         </div>
@@ -42,7 +57,9 @@ const Signin = () => {
             <hr></hr>
             <p>  By proceeding, you agree to the Terms and Conditions and Privacy Policy<a href='#'>Help</a><a href='#'>Privacy</a><a href='#'>Terms</a></p>         
         </div>
+
     </div>
+    
   );
 }
 
